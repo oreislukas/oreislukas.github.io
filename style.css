@@ -1,0 +1,14 @@
+body {
+    background-color: #12263A;
+    color: #84D175;
+}
+
+p {
+    color: #FFF8D2;
+}
+
+a {
+    color: #FFF8D2;
+    text-decoration: underline dashed #84D175;
+}
+
