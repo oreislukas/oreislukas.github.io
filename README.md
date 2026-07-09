@@ -1,6 +1,6 @@
-# Primeira versão
+# Segunda versão
 
-Algumas informações iniciais basicas para essa página + adição de style.
+Algumas informações iniciais basicas para essa página.
 
 ## Em breve
 

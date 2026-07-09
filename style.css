@@ -1,6 +1,13 @@
+* {
+    margin: 10;
+    padding: 1;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #12263A;
     color: #84D175;
+    font-family: Noto Mono, monospace;
 }
 
 p {
@@ -9,6 +16,25 @@ p {
 
 a {
     color: #FFF8D2;
-    text-decoration: underline dashed #84D175;
+    text-decoration: none;
+    position: relative;
 }
 
+a:hover {
+    color: #84D175;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #84D175;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
